@@ -43,7 +43,7 @@ func webServer() {
 
 func main() {
 	// run both api and cron jobs in background
-	// and keep the backserver in the main screen
+	// and keep the webserver in the main screen
 	fmt.Println(`
 	API SERVER: http://127.0.0.1:3333 ✅
 	WEB SERVER: http://127.0.0.1:8000 ✅
