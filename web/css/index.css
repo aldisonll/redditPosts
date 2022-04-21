@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+[reddit-posts] {
+    margin: auto;
+    width: 400px;
+    border: 1px solid black;
+    padding: 0px 20px;
+}
+[reddit-posts] [post] {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+[reddit-posts] [post] [user] {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: system-ui;
+    font-style: italic;
+}
+[reddit-posts] [post] [user] [post-link]{
+    color: black;
+}
+[reddit-posts] [post] [title] {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: auto;
+    font-family: system-ui;
+}
+[reddit-posts] [post] [description] {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-family: system-ui;
+}
+[reddit-posts] [post] [url]{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    height: auto;
+    font-family: system-ui;
+    color: blue;
+}
+[reddit-posts] [post] [actions] {
+    display: flex;
+    place-content: space-between;
+    margin-top: 1em;
+}
+[reddit-posts] [post] [actions] [like] {
+    cursor: pointer;
+    width: 80px;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+}
+[reddit-posts] [post] [actions] [comment] {
+    cursor: pointer;
+    width: 80px;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+}
+[reddit-posts] [post] [actions] [rewards] {
+    cursor: pointer;
+    width: 80px;
+    border: 0;
+    border-radius: 10px;
+    height: 25px;
+}
+[reddit-posts] [post] [actions] [like]:hover {
+    background: #b0b0b0;
+}
+[reddit-posts] [post] [actions] [comment]:hover {
+    background: #b0b0b0;
+}
+[reddit-posts] [post] [actions] [rewards]:hover {
+    background: #b0b0b0;
+}        
+[reddit-posts] [post] [info] {
+    display: flex;
+    place-content: space-between;
+    margin-top: 0.5em;
+}
+[reddit-posts] [post] [info] [upvotes] {
+    cursor: pointer;
+    color: rgb(48 48 255);
+}
+[reddit-posts] [post] [info] [comments] {
+    cursor: pointer;
+    color: rgb(48 48 255);
+}
+[reddit-posts] [post] [info] [rewards] {
+    cursor: pointer;
+    color: rgb(48 48 255);
+}
