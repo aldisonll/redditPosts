@@ -3,7 +3,7 @@ A simple website made with go lang which shows all popular posts from r/programm
 
 ## Installation 
 ```bash 
-git install https://github.com/aldisonll/redditPosts.git
+git clone https://github.com/aldisonll/redditPosts.git
 
 go get gopkg.in/robfig/cron.v2
 ```
