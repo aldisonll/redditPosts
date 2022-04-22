@@ -15,6 +15,6 @@ func runCronJob() {
 
 	// run cron job every 5 minutes
 	c := cron.New()
-	c.AddFunc("@every 5s", getAndSaveContent)
+	c.AddFunc("@every 5m", getAndSaveContent)
 	c.Start()
 }
